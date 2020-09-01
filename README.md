@@ -15,4 +15,5 @@ Steps to proceed as:
     2. If Application created first time, then Expose the application. Else don’t expose it.
     
     http://github.com - automatic!
+    https://medium.com/@shirshadatta2000/web-server-with-live-rolling-updates-using-dynamic-jenkins-slave-node-and-kubernetes-28b13b04731e?sk=1f9406f4c6e55f158c413050ae3dd89f
 [GitHub](http://github.com)
