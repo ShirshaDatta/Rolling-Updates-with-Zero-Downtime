@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myweb-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+        env: production
+
+  template:
+    metadata:
+     name: myweb-pod
+     labels:
+       env: production
+       dc: "2"
+       region: IN
+    spec:
+     containers:
+      - name: myweb-con
+        image: shirsha30/httpd_server:latest
+        ports:
+        - containerPort: 80
+
