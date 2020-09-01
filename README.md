@@ -14,6 +14,6 @@ Steps to proceed as:
     1.  If launching first time then create a deployment of the pod using the image created in the previous job. Else if deployment already exists then do rollout of the existing pod making zero downtime  for the user.
     2. If Application created first time, then Expose the application. Else don’t expose it.
     
-    http://github.com - automatic!
+    To know how have I done it, go through this:
+    
     https://medium.com/@shirshadatta2000/web-server-with-live-rolling-updates-using-dynamic-jenkins-slave-node-and-kubernetes-28b13b04731e?sk=1f9406f4c6e55f158c413050ae3dd89f
-[GitHub](http://github.com)
