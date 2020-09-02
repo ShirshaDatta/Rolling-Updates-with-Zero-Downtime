@@ -1,4 +1,3 @@
-#change name to Dockerfile and then use it
 FROM centos
 RUN yum install java-1.8.0-openjdk -y
 RUN yum install openssh-server -y
